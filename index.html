@@ -53,12 +53,15 @@
         </section>
     </div>
     <section class="pop-up">
-        <form class="pop-up__form">
-            <h3>Редактировать профиль</h3>
-            <input type="text" class="pop-up__first-name" placeholder="Имя">
-            <input type="text" class="pop-up__bio" placeholder="Род деятельности">
-            <button class="pop-up__save">Сохранить</button>
-        </form>
+        <div class="pop-up__container">
+            <img src="./images/close_icon.svg" class="pop-up__close" alt="закрыть">
+            <form class="pop-up__form">
+                <h2 class="pop-up__title">Редактировать профиль</h2>
+                <input type="text" class="pop-up__item pop-up__item_name" placeholder="Имя" value="Жак-Ив Кусто">
+                <input type="text" class="pop-up__item pop-up__item_bio" placeholder="Профессия" value="Исследователь океана">
+                <button type="submit" class="pop-up__save">Сохранить</button>
+            </form>
+        </div>
     </section>
     <footer class="footer">
         <p class="footer__copyright">&copy;2020. Соловьева Полина</p>
