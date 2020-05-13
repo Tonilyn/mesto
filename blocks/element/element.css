@@ -1,0 +1,6 @@
+@import url(./__photo/element__photo.css);
+
+.element {
+    background-color: #fff;
+    max-width: 282px;
+}
