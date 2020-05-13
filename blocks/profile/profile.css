@@ -1,2 +1,10 @@
 @import url(./__info/profile__info.css);
 @import url(./__avatar/profile__avatar.css);
+
+.profile {
+    max-width: 882px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4(min-content);
+    grid-template-rows: 2(min-content);
+}
