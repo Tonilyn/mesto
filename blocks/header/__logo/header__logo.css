@@ -2,3 +2,10 @@
     -ms-grid-column-align: center;
     justify-self: center;
 }
+
+@media (max-width: 500px) {
+    .header__logo {
+        width: 104px;
+        height: 25px;
+    }
+}

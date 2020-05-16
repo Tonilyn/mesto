@@ -4,3 +4,16 @@
     margin: 0;
     align-self: start;
 }
+
+@media screen and (max-width: 1025px) {
+    .profile__bio {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 778px) {
+    .profile__bio {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

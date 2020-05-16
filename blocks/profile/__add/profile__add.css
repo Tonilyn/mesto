@@ -7,5 +7,43 @@
     background-position: center;
     background-repeat: no-repeat;
     justify-self: end;
-    align-self: center;
+    align-self: center; 
+    transition: 0.3s ease-in-out;
+}
+
+.profile__add:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 1128px) {
+    .profile__add {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .profile__add {
+        justify-self: center;
+        margin: 34px auto 0;
+        width: 260px;
+    }
+}
+
+@media screen and (min-width: 657px) and (max-width: 684px) {
+    .profile__add {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 656px) {
+    .profile__add {
+        width: 282px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .profile__add {
+        max-width: 100%;
+    }
 }

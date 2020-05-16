@@ -11,74 +11,76 @@
         <header class="header">
             <img src="./images/logo.svg" class="header__logo" alt="логотип">
         </header>
-        <section class="profile">
-            <img src="./images/jaques.jpg" class="profile__avatar" alt="аватар">
-            <div class="profile__info">
-                <h1 class="profile__name">Жак-Ив Кусто</h1>
-                <button type="button" class="profile__edit" title="Редактировать профиль"></button>
-                <p class="profile__bio">Исследователь океана</p>
-            </div>
-            <button type="button" class="profile__add" title="Добавить место"></button>
-        </section>
-        <section class="elements">
-            <article class="element">
-                <img src="./images/mesta/moscow.jpg" class="element__photo" alt="avatar">
-                <div class="element__description">
-                    <h3 class="element__title">Москва</h3>
-                    <img src="./images/like.svg" class="element__like" alt="лайк">
+        <main class="main">
+            <section class="profile">
+                <img src="./images/jaques.jpg" class="profile__avatar" alt="аватар">
+                <div class="profile__info">
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <button type="button" class="profile__edit" title="Редактировать профиль"></button>
+                    <p class="profile__bio">Исследователь океана</p>
                 </div>
-            </article>
-            <article class="element">
-                <img src="./images/mesta/rome.jpg" class="element__photo" alt="photo">
-                <div class="element__description">
-                    <h3 class="element__title">Рим</h3>
-                    <img src="./images/like.svg" class="element__like" alt="лайк">
-                </div>
-            </article>
-            <article class="element">
-                <img src="./images/mesta/paris.jpg" class="element__photo" alt="avatar">
-                <div class="element__description">
-                    <h3 class="element__title">Париж</h3>
-                    <img src="./images/like.svg" class="element__like" alt="лайк">
-                </div>
-            </article>
-            <article class="element">
-                <img src="./images/mesta/ny.jpg" class="element__photo" alt="avatar">
-                <div class="element__description">
-                    <h3 class="element__title">Нью-Йорк</h3>
-                    <img src="./images/like.svg" class="element__like" alt="лайк">
-                </div>
-            </article>
-            <article class="element">
-                <img src="./images/mesta/sydney.jpg" class="element__photo" alt="avatar">
-                <div class="element__description">
-                    <h3 class="element__title">Сидней</h3>
-                    <img src="./images/like.svg" class="element__like" alt="лайк">
-                </div>
-            </article>
-            <article class="element">
-                <img src="./images/mesta/tokyo.jpg" class="element__photo" alt="avatar">
-                <div class="element__description"">
-                    <h3 class="element__title">Токио</h3>
-                    <img src="./images/like.svg" class="element__like" alt="лайк">
-                </div>
-            </article>
-        </section>
+                <button type="button" class="profile__add" title="Добавить место"></button>
+            </section>
+            <section class="elements">
+                <article class="element">
+                    <img src="./images/mesta/moscow.jpg" class="element__photo" alt="фото Москвы">
+                    <div class="element__description">
+                        <h3 class="element__title">Москва</h3>
+                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/mesta/rome.jpg" class="element__photo" alt="фото Рима">
+                    <div class="element__description">
+                        <h3 class="element__title">Рим</h3>
+                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/mesta/paris.jpg" class="element__photo" alt="фото Парижа">
+                    <div class="element__description">
+                        <h3 class="element__title">Париж</h3>
+                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/mesta/ny.jpg" class="element__photo" alt="фото Нью-Йорка">
+                    <div class="element__description">
+                        <h3 class="element__title">Нью-Йорк</h3>
+                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/mesta/sydney.jpg" class="element__photo" alt="фото Сиднея">
+                    <div class="element__description">
+                        <h3 class="element__title">Сидней</h3>
+                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/mesta/tokyo.jpg" class="element__photo" alt="фото Токио">
+                    <div class="element__description"">
+                        <h3 class="element__title">Токио</h3>
+                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&copy;2020 Mesto Russia</p>
+        </footer> 
     </div>
     <section class="pop-up">
         <div class="pop-up__container">
-            <img src="./images/close_icon.svg" class="pop-up__close" alt="закрыть">
+            <button type="button" class="pop-up__close">
             <form class="pop-up__form">
                 <h2 class="pop-up__title">Редактировать профиль</h2>
-                <input type="text" class="pop-up__item pop-up__item_name" placeholder="Имя" value="Жак-Ив Кусто">
-                <input type="text" class="pop-up__item pop-up__item_bio" placeholder="Профессия" value="Исследователь океана">
+                <input type="text" class="pop-up__item pop-up__item_name" placeholder="Имя" required>
+                <input type="text" class="pop-up__item pop-up__item_bio" placeholder="Профессия" required>
                 <button type="submit" class="pop-up__save">Сохранить</button>
             </form>
         </div>
-    </section>
-    <footer class="footer">
-        <p class="footer__copyright">&copy;2020. Соловьева Полина</p>
-    </footer>   
+    </section>  
   <script src="script.js"></script>        
 </body>
 </html>

@@ -5,3 +5,20 @@
     white-space: nowrap;
     margin: 0;
 }
+
+@media screen and (max-width: 1128px) {
+    .profile__name {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 56px;
+    }
+}
+
+@media screen and (max-width: 778px) {
+    .profile__name {
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 56px;
+        text-align: center;
+    }
+}
