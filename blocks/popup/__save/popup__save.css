@@ -3,14 +3,19 @@
   height: 50px;
   font-size: 18px;
   line-height: 22px;
-  border: 0;
+  border: none;
   /* margin: 48px auto 36px; */
   margin-top: 48px;
   padding-bottom: 5px;
   cursor: pointer;
-  transition: opacity .4s;
   background-color: #000;
   border-radius: 2px;
   color: white;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+
+}
+
+.popup__save:hover {
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }

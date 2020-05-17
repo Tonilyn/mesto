@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     margin: 0 0 0 17px;
     transition: 0.3s ease-in-out;
+    border: 1px solid #fff;
 }
 
 .profile__edit:hover {

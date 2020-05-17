@@ -3,6 +3,7 @@
     line-height: 22px;
     margin: 0;
     align-self: start;
+    margin-top: 8px;
 }
 
 @media screen and (max-width: 1025px) {
@@ -15,5 +16,13 @@
     .profile__job {
         font-size: 14px;
         line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile__job {
+        margin: 0;
+        align-self: end;
+        text-align: right;
     }
 }

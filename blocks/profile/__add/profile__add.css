@@ -9,6 +9,7 @@
     justify-self: end;
     align-self: center; 
     transition: 0.3s ease-in-out;
+    border: 1px solid #fff;
 }
 
 .profile__add:hover {
