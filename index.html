@@ -26,42 +26,42 @@
                     <img src="./images/mesta/moscow.jpg" class="element__photo" alt="фото Москвы">
                     <div class="element__description">
                         <h3 class="element__title">Москва</h3>
-                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                        <button type="button" class="element__like" title="Нравится"></button>
                     </div>
                 </article>
                 <article class="element">
                     <img src="./images/mesta/rome.jpg" class="element__photo" alt="фото Рима">
                     <div class="element__description">
                         <h3 class="element__title">Рим</h3>
-                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                        <button type="button" class="element__like" title="Нравится"></button>
                     </div>
                 </article>
                 <article class="element">
                     <img src="./images/mesta/paris.jpg" class="element__photo" alt="фото Парижа">
                     <div class="element__description">
                         <h3 class="element__title">Париж</h3>
-                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                        <button type="button" class="element__like" title="Нравится"></button>
                     </div>
                 </article>
                 <article class="element">
                     <img src="./images/mesta/ny.jpg" class="element__photo" alt="фото Нью-Йорка">
                     <div class="element__description">
                         <h3 class="element__title">Нью-Йорк</h3>
-                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                        <button type="button" class="element__like" title="Нравится"></button>
                     </div>
                 </article>
                 <article class="element">
                     <img src="./images/mesta/sydney.jpg" class="element__photo" alt="фото Сиднея">
                     <div class="element__description">
                         <h3 class="element__title">Сидней</h3>
-                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                        <button type="button" class="element__like" title="Нравится"></button>
                     </div>
                 </article>
                 <article class="element">
                     <img src="./images/mesta/tokyo.jpg" class="element__photo" alt="фото Токио">
                     <div class="element__description"">
                         <h3 class="element__title">Токио</h3>
-                        <img src="./images/like.svg" class="element__like" alt="лайк">
+                        <button type="button" class="element__like" title="Нравится"></button>
                     </div>
                 </article>
             </section>
@@ -75,8 +75,8 @@
             <h2 class="popup__title">Редактировать профиль</h2>
             <button type="button" class="popup__close"></button>
             <form class="popup__form">
-                <input type="text" class="popup__item popup__item_name" placeholder="Имя" required>
-                <input type="text" class="popup__item popup__item_job" placeholder="Профессия" required>
+                <input type="text" class="popup__item popup__item_name" placeholder="Имя" maxlength="20" required>
+                <input type="text" class="popup__item popup__item_job" placeholder="Профессия" maxlength="28" required>
                 <button type="submit" class="popup__save">Сохранить</button>
             </form>
         </div>

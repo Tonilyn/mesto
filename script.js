@@ -25,4 +25,11 @@ function closePopup() {
 
 popupButtonClose.addEventListener('click', closePopup)
 
+function formSubmitHandler(evt) {
+    evt.preventDefault();
+    profileName.textContent = popupName.value;
+    profileJob.textContent = popupJob.value;
+    closePopup;
+}
 
+popupForm.addEventListener('submit', formSubmitHandler);
