@@ -1,6 +1,6 @@
-.pop-up__item {
+.popup__item {
     border: 0;
-    width: 78%;
+    width: 100%;
     height: 24px;
     box-sizing: border-box;
     border-bottom: 1px solid #bcbcc4;

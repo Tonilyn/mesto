@@ -1,8 +1,0 @@
-.pop-up__close {
-    grid-column: 2 / span 3;
-    grid-row: 1 / 2;
-    object-fit: cover;
-    align-self: end;
-    background-image: url(../../../images/close_icon.svg);
-    object-fit: cover;
-}

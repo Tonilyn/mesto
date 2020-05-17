@@ -1,12 +1,13 @@
-.pop-up__form {
-    max-width: 430px;
+.popup__form {
+    max-width: 100%;
     background-color: #fff;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15); */
     border-radius: 10px;
-    grid-column: 1 / 2;
+    /* grid-column: 1 / 2;
     grid-row: 2;
-    position: relative;
+    position: relative; */
     margin: auto;
+    white-space: nowrap;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
