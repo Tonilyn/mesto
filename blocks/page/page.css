@@ -4,7 +4,8 @@
     padding: 0 199px;
     max-width: 1280px;
     min-width: 300px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
 }

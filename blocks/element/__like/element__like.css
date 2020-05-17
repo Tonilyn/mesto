@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     border: none;
     background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
 
