@@ -2,12 +2,9 @@
     margin: 0 auto;
     display: -ms-grid;
     display: grid;
-    /* grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-gap: 18px; */
     grid-template-columns: repeat(auto-fit, 282px); 
     grid-template-rows: repeat(2, 362px);
     grid-gap: 18px;
-    /* grid-auto-rows: 1fr 1fr; */
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: center;
