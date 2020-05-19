@@ -1,7 +1,4 @@
 .popup__container {
-    /* display: grid;
-    grid-template-columns: 430px min-content;
-    grid-template-rows: min-content 1fr; */
     max-width: 430px;
     padding: 36px;
     margin: 19px;

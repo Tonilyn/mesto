@@ -17,20 +17,17 @@ function openPopup() {
   popupJob.value = profileJob.textContent;
 }
 
-
-
 function closePopup() {
     popup.classList.remove('popup_active')
-  }
+}
 
 function formSubmitHandler(evt) {
     evt.preventDefault();
     profileName.textContent = popupName.value;
     profileJob.textContent = popupJob.value;
-    closePopup;
+    closePopup();
 }
 
 profileEditButton.addEventListener('click', openPopup);
 popupButtonClose.addEventListener('click', closePopup);
-popupButtonSave.addEventListener('click', closePopup);
 popupForm.addEventListener('submit', formSubmitHandler);
