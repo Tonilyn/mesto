@@ -9,6 +9,7 @@
     -webkit-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
+    outline: none;
 }
 
 .element__like:hover {
