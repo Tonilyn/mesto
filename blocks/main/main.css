@@ -2,16 +2,16 @@
     padding: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 326px) and (max-width: 500px) {
     .main {
         padding-left: 19px;
         padding-right: 19px;
     }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (min-width: 290px) and (max-width: 325px){
     .main {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
 }
