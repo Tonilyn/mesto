@@ -3,16 +3,23 @@
     min-width: 300px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 326px) and (max-width: 500px) {
     .main {
         padding-left: 19px;
         padding-right: 19px;
     }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 340px) {
     .main {
         padding-left: 0;
         padding-right: 0;
+=======
+@media screen and (min-width: 290px) and (max-width: 325px){
+    .main {
+        padding-left: 4px;
+        padding-right: 4px;
+>>>>>>> develop
     }
 }
